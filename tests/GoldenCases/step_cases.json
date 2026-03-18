@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "name": "baseline-shallow-water",
+      "input": {
+        "castId": 10001,
+        "seedBase": 20260318,
+        "poseIndex": 3,
+        "sampleSlot": 12,
+        "dt": 0.016,
+        "lureDepth": 5.2,
+        "lureSpeed": 2.7,
+        "tension": 18.0,
+        "waterTemp": 19.0,
+        "actionFlags": 1
+      },
+      "expected": {
+        "resultCode": 0,
+        "biteProb": 0.5717213,
+        "weightFactor": 1.5639808,
+        "tensionDelta": 10.740984,
+        "fishTypeId": 2001,
+        "isHit": false
+      }
+    },
+    {
+      "name": "deep-water-heavy-fish",
+      "input": {
+        "castId": 22002,
+        "seedBase": 20260319,
+        "poseIndex": 4,
+        "sampleSlot": 5,
+        "dt": 0.033,
+        "lureDepth": 11.5,
+        "lureSpeed": 1.8,
+        "tension": 22.0,
+        "waterTemp": 15.5,
+        "actionFlags": 0
+      },
+      "expected": {
+        "resultCode": 0,
+        "biteProb": 0.3822281,
+        "weightFactor": 1.4567955,
+        "tensionDelta": 6.080106,
+        "fishTypeId": 2001,
+        "isHit": false
+      }
+    },
+    {
+      "name": "high-tension-low-probability",
+      "input": {
+        "castId": 33003,
+        "seedBase": 20260320,
+        "poseIndex": 1,
+        "sampleSlot": 19,
+        "dt": 0.02,
+        "lureDepth": 3.4,
+        "lureSpeed": 4.1,
+        "tension": 67.0,
+        "waterTemp": 9.5,
+        "actionFlags": 3
+      },
+      "expected": {
+        "resultCode": 0,
+        "biteProb": 0.23699693,
+        "weightFactor": 1.0887911,
+        "tensionDelta": 0.5859451,
+        "fishTypeId": 2001,
+        "isHit": false
+      }
+    }
+  ]
+}

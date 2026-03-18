@@ -1,0 +1,14 @@
+{
+  "name": "NativeAotGoDemo.Unity.Runtime",
+  "rootNamespace": "NativeAotGoDemo.Unity",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

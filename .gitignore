@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+src/Game.NativeAot.Export/publish/
+src/GoServer/internal/nativecalc/lib/GameNative.def
+src/GoServer/internal/nativecalc/lib/GameNative.dll
+src/GoServer/internal/nativecalc/lib/GameNative.dll.a
+src/GoServer/internal/nativecalc/lib/GameNative.lib
+publish.out.log
+publish.err.log

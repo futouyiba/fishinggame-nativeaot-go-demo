@@ -1,0 +1,10 @@
+{
+  "name": "com.nativeaotgo.demo",
+  "version": "0.1.0",
+  "displayName": "NativeAOT Go Demo",
+  "description": "Unity source package sample for sharing Game.Domain.Core code with the NativeAOT + Go demo.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Codex Demo"
+  }
+}
